@@ -56,6 +56,51 @@ img:nth-child(5) {
   img:nth-child(5) {
     width: 50%;
     display: block;
-    float: right;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  img:nth-child(5) {
+    display: none;
+  }
+
+  img:nth-child(4) {
+    float: left;
+    display: block;
+    width: 33.3333%;
+  }
+
+  img:nth-child(3) {
+    width: 33.3333%;
+  }
+
+  img:nth-child(2) {
+    width: 33.3333%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    width: 66.6666%;
+    float: left;
+  }
+
+  img:nth-child(2) {
+    width: 33.3333%;
+    float: left;
+  }
+
+  img:nth-child(5) {
+    display: block;
+    width: 33.3333%;
+    float: left;
+  }
+
+  img:nth-child(4) {
+    float: left;
+    width: 33.3333%;
   }
 }
